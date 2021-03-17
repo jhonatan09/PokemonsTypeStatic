@@ -8,7 +8,7 @@ const OrderPlaced = () => {
     const {setCloseShop} = useContext(DataContext)
 
     setTimeout(() => {
-        localStorage.removeItem('@B2W:Order');
+        localStorage.removeItem('@B2W:OrderThird');
         history.go(0); 
         setCloseShop(false)
         
